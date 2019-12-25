@@ -1,0 +1,766 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+.topheader{
+    background: #333;
+    height: 40px;
+    line-height: 40px;
+    color: #ddd;
+    font-size: 14px;
+    overflow: hidden;
+}
+.icon, .text{
+    float: left;
+}
+.icon a{
+    padding: 10px;
+    color: #ddd;
+}
+.icon a:nth-child(1){
+    padding-left: 0;
+}
+.phone{
+    margin-left: 10px;
+    padding: 0 20px;
+    border-left: 1px solid #ddd;
+}
+.hours{
+    float: right;
+    padding: 0 20px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.navbar{
+    padding: 0;
+}
+.collapse{
+    justify-content: space-between;
+}
+.nav-item{
+    padding: 0 15px;
+}
+.navbar-nav .datbanmenu a.nav-link{
+    color: black;
+    border-radius: 0px;
+}
+.datbanmenu{
+    padding-right: 0;
+  
+}
+/* carousel */
+.content-carousel{
+    position: absolute;
+    color: white;
+    background-image: url("images/icon1.png");
+    background-repeat: no-repeat;
+    left: 13%;
+    padding-top: 170px;
+}
+.content-carousel .btn-primary{
+   padding: 4px 18px;
+   border-radius: 0px;
+}
+.content-carousel h2{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.content-carousel p{
+    padding: 10px;
+    width: 550px;
+}
+.carousel-indicators li{
+    border: 1px solid white;
+    background: transparent;
+    opacity: 1;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+}
+.carousel-indicators .active{
+    background: white;
+}
+
+.service{ 
+    margin-top: 70px;
+}
+
+/* responsive  */
+
+@media (max-width: 576px)
+{
+    .topheader{
+        height: auto;
+        overflow: hidden;
+    }
+     .text{
+        border: none;
+        text-align: center;
+        width: 100%;
+        padding:0px 0;
+        margin: 0;
+        border-top: 1px dashed #ddd;
+    }
+    .icon{
+        width: 100%;
+        padding: 0px 0;
+    }
+    .navbar-brand{
+        height: 80px;
+        display: block;
+        text-align: center;
+    }
+    .nav-item{
+        padding: 13px 0;
+        text-align: center;
+        border-bottom: 1px solid #333;
+    }
+.datbanmenu{
+    border: none;
+}
+
+    /* carousel  */
+.content-carousel{
+    padding-top: 24px;
+    background: none;
+}
+.content-carousel h2{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.content-carousel h2 {
+    font-size: 19px;
+}   
+.content-carousel p{
+    padding: 5px;
+    width: 300px;
+    font-size: 13px;
+}
+.service{
+    margin-top: 30px;
+}
+.service h3 a{
+    font-size: 20px;
+    padding: 15px 15px 7px 15px !important;
+}
+.service p a{
+    font-size: 12px;
+    line-height: 15px;
+}
+.service .col-xl-4>a {
+    margin-bottom: 20px;
+}
+/* block-menu */
+
+.content-menu span{
+    font-size: 2rem !important;
+    color: #feb518;
+}
+.content-menu h3{
+    font-size: 28px !important;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.block-menu{
+    height: 400px !important;
+}
+
+
+}
+
+/* end responsive */
+.service h3 a{
+    color: #333;
+    display: block;
+    text-align: center;
+    padding: 25px 25px 10px 25px;
+}
+.service p a{
+    color: #777;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+}
+.read-more {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.service .container{
+    max-width: 80%;
+}
+
+/* end service */
+
+/* block menu  */
+.fontoswarld{font-family: 'Oswald', sans-serif;}
+.fontdancing{font-family: 'Dancing Script', cursive;}
+.fontroboto {
+    font-family: 'Roboto Slab', serif;
+}
+
+.block-menu{
+    background-image: url("images/slide03.jpg");
+    background-size: cover;
+    height: 550px;
+    color: white;
+    display: flex; 
+    align-items: center;
+}
+.title-menu{
+    width: 100%;
+}
+.content-menu span{
+    font-size: 2.8rem;
+    color: #feb518;
+}
+.content-menu h3{
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+/* thuc don  */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.thucdon .lienket{
+    height: 40px;
+    line-height: 40px;
+    margin-top: -40px;
+
+
+}
+.lienket a{
+    padding: 0 20px;
+    color: white;
+    font-size: 18px;
+    font-weight:6900;
+
+}
+.new{
+    position: absolute;
+    top: 0;
+    background: #feb518;
+    font-size: 11px;
+    font-family: 'Roboto Slab', serif;
+    padding: 2px 7px;
+}
+.thucdon-ct .row .row [class*=col-]{
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+.ten-monan .tren b{
+    font-size: 15px;
+}
+
+.duoi{
+    font-size: 13px;
+    padding: 10px 0;
+}
+.thucdon-ct{
+    padding:100px 0 70px 0;
+
+}
+
+/* phan slide */
+
+.slide1{
+    background-image: url("images/BG2.jpg");
+    background-size: cover;
+    padding-bottom: 50px;
+}
+.slide1 .sanpham{
+    float: left;
+    width: 20%;
+    padding: 10px;
+
+}
+.slide1 h3{
+    color: white;
+    padding: 20px;
+}
+.slide1 .carousel-control-prev{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: -40px;
+    left:auto;
+    right: 50px;
+}
+.slide1 .carousel-control-next{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: -40px;
+    right: 7px;
+}
+.slide1 .carousel-control-next:hover , .slide1 .carousel-control-prev:hover{
+    background: #feb518;
+}
+
+/* giao dien mobile  */
+@media (max-width: 576px)
+{
+    .slide1 .sanpham{
+        float: left;
+        width: 50%;
+        padding: 10px;
+    }
+      
+}
+
+/* phan dau bep  */
+.daubep{
+    position: relative;
+}
+
+
+.info{
+    padding-top: 100px;
+}
+.info h3{
+    font-size: 28px;
+}
+.info span{
+    font-size:  31px;
+    color: #feb518;
+    display: block;
+    padding-bottom: 25px;
+}
+.info p{
+    line-height: 25px;
+    font-size: 16px;
+    color: #777;
+}
+
+.icon-db{
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background: black;
+    color: white;
+    display: inline-block;
+    text-align: center;
+}
+.icon-db:hover{
+    background: #feb518;
+    color: black;
+}
+
+.daubep-image{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+/* slogan  */
+.slogan {
+    margin-top: 50px;
+    background: #3e3e3e;
+    height: 550px;
+    display: flex;
+    align-items: center;
+}
+.slogan h3{
+    color: #feb518;
+    font-size: 36px;
+}
+.slogan span{
+    font-size: 36px;
+    color: white;
+}
+
+/* xu ly mobile slogan + dau bep */
+@media (max-width: 576px) {
+    .info{
+        padding-top: 50px;
+        text-align: center;
+    }
+    .daubep img{
+        margin-top: 30px;
+        position: relative;
+    }
+    .slogan {
+        margin-top: 30px;
+        height: 350px;
+    }
+    .slogan h3{
+        color: #feb518;
+        font-size: 30px;
+    }
+    .slogan span{
+        font-size: 30px;
+        color: white;
+    }
+}
+
+
+/* block dat ban  */
+*{
+    padding:0;
+    margin: 0;
+}
+.thongtin-db{
+    padding-bottom: 50px;
+    border-bottom: 1px solid #777;
+    margin-bottom: 50px;
+}
+
+.phone1{
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.block-datban {
+    padding-top: 70px;
+}
+
+.block-datban p {
+    font-size: 16px;
+    color: #777;
+}
+
+.block-datban h2 {
+    font-size: 30px;
+    padding-bottom: 27px;
+}
+.yellow{
+    color: #feb518;
+}
+.time{
+    padding-top: 27px;
+}
+
+/* xu ly form  */
+.form-db h2{
+    padding-bottom: 50px;
+    font-size: 1.8rem;
+}
+
+.block-datban .btn {
+    margin-top: 40px;
+    padding: 15px 32px;
+    margin-bottom: 10px;
+    color: black;
+    background: #feb518;
+}
+.block-datban .btn:hover{
+    background: #e49e08;
+    color: white;
+}
+
+@media (max-width: 576px)
+{
+    .btn{
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 0.8rem;
+    }
+
+}
+
+/* feedback */
+.feedback{
+    background: #777;
+    padding: 100px 0;;
+    color: white;
+}
+.feedback .carousel-indicators{
+    bottom: -60px;
+}
+.feedback .marel{
+    color: #feb518;
+    font-size: 36px;
+}
+.quote{
+    padding: 30px 0px;
+    font-size: 18px;
+    line-height: 36px;
+}
+.feedback i{
+    font-size: 36px;
+}
+
+@media (max-width: 576px)
+{
+    .container{
+        max-width: 100%;
+    }
+}
+
+/* block tin tuc  */
+.tintuc img{
+    width: 100%;
+}
+.tintuc{
+    padding: 120px 0;
+}
+.title-tintuc span{
+    font-size: 40px;
+    color: #feb518;
+}
+.title-tintuc h3{
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 55px;
+}
+.tintuc-block .title-block{
+    font-size: 18px;
+    color: black;
+    display: block;
+    padding: 26px 0 12px 0;      
+}
+.tintuc-block .date{
+    font-size: 17px;
+    line-height: 27px;
+}
+.readmore{
+    color: #333;
+    font-weight: bold;
+}
+.tintuc-block p{
+    border-bottom: 1px dashed #333;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+/* footer top */
+
+.footer-top{
+    background: #151515;
+    padding: 115px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #888;
+}
+.column1 p{
+    padding: 17px 0 0 0 ;
+}
+.footer-top li{
+    text-decoration: none;
+    list-style: none;
+}
+.footer-top h2{
+    font-size: 14px;
+    font-weight: bold;
+    color: #ccc;
+    padding: 4px;
+    border-bottom: 1px dashed #feb518;
+}
+.footer-top li a{
+    color: #888;
+}
+.line1{
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #888;
+    height: 25px;
+}
+.footer-top .trai, .footer-top .phai{
+    padding: 5px;
+    background: #151515;
+    transform: translateY(0px);
+}
+
+.footer-bottom{
+    height: 90px;
+    line-height: 90px;
+    background: #111;
+    color: #888;
+    font-size: 13px;
+}
+@media (max-width: 576px){
+    .footer-top{
+        padding: 50px;
+    }
+}
+
+
+/* css trang about  */
+
+.block2-about{
+    padding: 70px 0;
+}
+.block2-about .fontdancing{
+    font-size: 30px;
+    color: #feb518;
+}
+.block2-about p.fontroboto{
+    color: #777;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+.block2-about .btn{
+    width: 165px;
+    height: 50px;
+    border-radius: 0;
+    line-height: 50px;
+    padding: 0;
+    color: black;
+    background: #feb518;
+
+}
+
+.block3-about img{
+    width:auto;
+}
+.block3-about p{
+    text-align: left;
+    border: none;
+    color: #777;
+}
+.block3-about .readmore{
+    color: #feb518;
+    font-weight: normal;
+}
+
+.block4-about{
+    background-image:url("images/bg_about.jpg");
+    padding-top: 100px;
+}
+
+@media(max-width: 576px){
+    .icon1{
+        padding-bottom: 30px;
+    }
+}
+.block3-about{
+    padding: 100px 0 40px 0;
+}
+
+
+/* css thuc don  */
+
+.block2-thucdon .fontdancing{
+    font-size: 30px;
+    color: #feb518;
+    font-weight: bold;
+}
+.block2-thucdon .thucdon-ct{
+    padding: 70px 0 70px 0;
+}
+.title-td{
+    padding-top: 100px;
+}
+
+
+@media (max-width: 576px)
+{
+    .title-td{
+        padding-top: 50px;
+    }
+    .block2-thucdon .thucdon-ct{
+        padding: 50px 0 50px 0;
+    }
+    
+}
+
+
+/* css trang contact   */
+.block1-contact .fontdancing{
+    font-size: 30px;
+    color: #feb518;
+    font-weight: bold;
+}
+
+.block1-contact input[type=text], .block1-contact input[type=number]
+{
+   margin-top: 30px;
+}
+.block1-contact textarea, .block1-contact .btn
+{
+   margin-top: 30px;
+}
+.block1-contact{
+    padding: 150px 0 0 0 ;
+}
+.block1-contact .btn{
+    font-size: 13px;
+    background: #333;
+    color: white;
+    line-height: 24px;
+}
+.block1-contact textarea{
+    min-height: 75px;
+}
+.block1-contact .btn:hover{
+    background: #feb518;
+    color: black;
+}
+.block3-contact i{
+    color: #feb518;
+    padding: 10px 0;
+}
+.block3-contact .tintuc-block img{
+    margin-bottom: 20px;
+}
+.block3-contact .line span{
+    font-size: 13px;
+    line-height: 24px;
+    color: #777;
+}
+
+/* xu ly di dong  */
+@media (max-width: 576px)
+{
+
+}
+
+/* css trang new  */
+.title-new{
+    padding-bottom: 60px;
+}
+.title-new .fontroboto{
+    font-size: 24px;
+    color: #333;
+}
+.title-new .fontdancing{
+    font-size: 36px;
+    color: #feb518;
+}
+
+.block1-new p{
+    padding-top: 15px;
+    font-size: 14px;
+    color: #777;
+    line-height: 24px;
+    font-family: 'Roboto Slab', serif;
+}
+.block1-new .fontoswarld{
+    display: block;
+    font-size: 18px;
+    padding: 18px 0;
+    color: black;
+}
+.iconsearch{
+    position: absolute;
+    top: 6px;
+    background: none;
+    border: none;
+    right: 28px;
+    color: #777;
+}
+.block-link{
+    border-bottom: 1px solid #777;
+}
+.block-link ul li a{
+    color: #777;
+    line-height: 44px;
+    font-size: 14px;
+}
+.block-link h3{
+    line-height: 50px;
+    font-size: 18px;
+}
+.block-link ul{
+    color: #777;
+    margin-left: 20px;
+}
